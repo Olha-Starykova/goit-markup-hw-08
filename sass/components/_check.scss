@@ -1,0 +1,76 @@
+.div-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.visually {
+  appearance: none;
+  position: absolute;
+
+  &:checked + .check-box {
+    background-image: url(../images/galochka.svg);
+    background-position-y: center;
+    transform: translateY(50%);
+    background-repeat: no-repeat;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: $accent-color;
+    fill: $wite-color;
+    border-radius: 2px;
+    background-size: contain;
+    background-origin: border-box;
+
+    border: 0.2px;
+  }
+}
+
+.label-check {
+  margin-bottom: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.a-check {
+  color: $accent-color;
+  border-bottom: 1px solid $accent-color;
+  display: inline-block;
+  line-height: 0.85;
+}
+.check-box {
+  position: absolute;
+  background-image: url(../images/ramka.svg);
+  width: 16px;
+  height: 15px;
+  left: 0;
+  bottom: 15px;
+  transform: translateY(50%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.check-btm {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+  letter-spacing: 0.06em;
+  margin-left: 124px;
+  color: #ffffff;
+}

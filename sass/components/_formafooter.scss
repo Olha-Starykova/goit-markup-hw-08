@@ -1,0 +1,50 @@
+.e-mail-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 94px;
+
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.25;
+
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  padding: 0 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+  
+
+&::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+}
+
+.e-mail-label {
+  margin-bottom: 4px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: $primary-text-color;
+}
+.div-footer-too {
+  margin-left: 93px;
+}

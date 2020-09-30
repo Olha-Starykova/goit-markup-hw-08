@@ -1,0 +1,56 @@
+
+.margin-botton {
+  padding-bottom: 94px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.rob {
+  display: flex;
+  position: relative;
+
+
+  &:not(:last-child) {
+  margin-right: 30px;
+}
+}
+
+.annexes {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: $wite-color;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.section-one.f.sec {
+  background-color: #f5f4fa;
+}
+
+.section-one.f.margin-botton {
+  background: $fon-button;
+  padding-top: 94px;
+}
+
+.section-title {
+  color: $dark-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+
+  margin-top: 0;
+  text-align: center;
+}

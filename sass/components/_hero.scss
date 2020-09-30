@@ -1,0 +1,47 @@
+
+
+.hero {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
+  max-height: 600px;
+
+  background: #2f303a;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/herogo.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &-container-hero {
+  max-width: 1600px;
+  min-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+&-title {
+  color: $wite-color;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin: 0;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+ 
+}
+}
+

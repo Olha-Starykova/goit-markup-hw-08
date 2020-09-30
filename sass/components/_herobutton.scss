@@ -1,0 +1,21 @@
+.hero-button {
+  color: $wite-color;
+  background-color: $accent-color;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  padding: 10px 32px;
+
+  margin-bottom: 200px;
+  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
