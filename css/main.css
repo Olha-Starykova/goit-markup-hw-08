@@ -8,6 +8,7 @@ html {
 *::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  outline: 2px solid red;
 }
 
 .page {
@@ -19,12 +20,6 @@ html {
   letter-spacing: 0.03em;
 }
 
-.flexbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .list {
   padding: 0;
   margin: 0;
@@ -32,25 +27,12 @@ html {
 }
 
 .container {
-  width: 1170px;
-  padding: 0 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.site-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .navigation {
+  display: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,17 +42,7 @@ html {
   margin-right: auto;
 }
 
-.page-header .flexbox {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
 .div {
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -102,9 +74,24 @@ html {
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo.current {
+    height: 80px;
+    width: 768px;
+    outline: 2px solid blue;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .logo.current .logoacc {
@@ -112,8 +99,21 @@ html {
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.16;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo.current .logoacc {
+    height: 80px;
+    width: 768px;
+    outline: 2px solid blue;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .fon .logodark {
@@ -167,20 +167,59 @@ html {
   margin-right: 50px;
 }
 
-.sec {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  max-width: 1600px;
+.section.list {
   margin-right: auto;
   margin-left: auto;
+  width: 480px;
+  padding-top: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-.zzz {
-  width: calc((100% - 30px * 3) / 4);
+@media screen and (min-width: 480px) {
+  .section.list {
+    width: 480px;
+  }
 }
 
-.zzz:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 768px) {
+  .section.list {
+    width: 768px;
+    width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 45px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .section.list {
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 1600px;
+    padding-top: 79px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .zzz {
+    width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .zzz {
+    width: calc((100% - 4 * 30px) / 4);
+    margin: 15px;
+    padding-bottom: 0;
+  }
 }
 
 .zzz.list-item::before {
@@ -219,7 +258,6 @@ html {
 
 .paragraf {
   display: contents;
-  width: 270px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -237,17 +275,51 @@ html {
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section-sub {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .section-sub {
+    text-align: left;
+  }
 }
 
 .page-header {
-  margin-right: auto;
+  height: 60px;
+  outline: 2px solid red;
   margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.page-header .flexbox {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media screen and (min-width: 480px) {
+  .page-header {
+    width: 480px;
+    background-color: orangered;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-header {
+    height: 80px;
+    width: 768px;
+    outline: 2px solid blue;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .page-header {
+    height: 80px;
+    width: 1600px;
+    outline: 2px solid olive;
+  }
 }
 
 .margin {
@@ -438,33 +510,57 @@ html {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  max-height: 600px;
   background: #2f303a;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/herogo.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herogo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 480px;
+  height: 400px;
 }
 
-.hero-container-hero {
-  max-width: 1600px;
-  min-height: 600px;
-  margin-right: auto;
-  margin-left: auto;
+@media screen and (min-width: 480px) {
+  .hero {
+    width: 480px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 400px;
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .hero {
+    height: 600px;
+    width: 1600px;
+    padding: 0;
+  }
 }
 
 .hero-title {
   color: #ffffff;
-  padding-top: 200px;
+  padding-top: 118px;
   padding-bottom: 30px;
   margin: 0;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+}
+
+@media screen and (min-width: 1600px) {
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.36;
+    padding-top: 200px;
+  }
 }
 
 .liniya {
@@ -811,7 +907,6 @@ html {
   text-align: center;
   letter-spacing: 0.06em;
   padding: 10px 32px;
-  margin-bottom: 200px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

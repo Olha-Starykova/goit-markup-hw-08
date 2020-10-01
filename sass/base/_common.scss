@@ -6,6 +6,7 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
+  outline: 2px solid red;
 }
 
 .page {
@@ -18,40 +19,43 @@ html {
   letter-spacing: 0.03em;
 }
 
-.flexbox {
-  display: flex;
-}
+// .flexbox {
+//   display: flex;
+// }
+
 .list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 .container {
-  width: 1170px;
-  padding: 0 15px;
-  margin-right: auto;
-  margin-left: auto;
+  // width: 1170px;
+  // padding: 0 15px;
+   margin-right: auto;
+   margin-left: auto;
 }
 .section {
-  display: flex;
+  // display: flex;
+
 }
 
 .site-nav {
-  display: flex;
+  // display: flex;
 }
 
 .navigation {
+  display: none;
   display: flex;
   align-items: center;
   margin-right: auto;
 }
 
-.page-header .flexbox {
-  align-items: center;
-  justify-content: flex-end;
-}
+// .page-header .flexbox {
+//   align-items: center;
+//   justify-content: flex-end;
+// }
 .div {
-  max-width: 1600px;
+  // max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
