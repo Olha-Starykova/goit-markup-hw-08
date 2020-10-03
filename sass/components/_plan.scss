@@ -1,17 +1,23 @@
+.centr{
+      padding-top: 60px;
+}
+
+.centrauto{
+      padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section.list {
-  // padding-top: 94px;
-//   padding-bottom: 94px;
-//   max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
 
+  list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    width: 480px;
 
-   width: 480px;
-   padding-top: 60px;
-   padding-right: 15px;
-   padding-left: 15px;
-   
-
+        
           @media screen and (min-width: $mobile) {
                    width: 480px;
               }
@@ -20,32 +26,22 @@
                width: 768px;
             display: flex;
               flex-wrap: wrap; 
-              padding-left: 0;
-              padding-right: 0;
-              padding-top: 45px;   
+              margin: -15px;
+            
               }
 
           @media screen and (min-width: $desktop) {
               padding-left: 200px;
               padding-right: 200px;
-           
+           margin: -15px;
               width: 1600px;
-              padding-top: 79px;   
+             
                }
 
  }
 
-   
-
 .zzz {  
-
-          //  @media screen and (max-width: $mobile) {
-          //      padding-bottom:30px;
-                 
-                        
-          //   }
-
- 
+   
           @media screen and (min-width: $tablet) {
             width: calc((100% - 2 * 30px) / 2);
             margin: 15px;
@@ -61,8 +57,6 @@
               }
 }
             
-
-
       // &:not(:last-child) {
       //   // margin-right: 30px;
       // }
@@ -71,8 +65,7 @@
 .zzz.list-item::before {
   display: block;
   content: "";
-  height: 120px;
-
+ 
   background-repeat: no-repeat;
   background-position: center;
   background-color: $fon-button;
@@ -86,6 +79,9 @@
     margin-bottom: 30px;
    
     justify-content: center;
+    width: 270px;
+    height: 120px;
+
 }
 
 
@@ -104,8 +100,6 @@
 .zzz.list-item:nth-child(4)::before {
   background-image: url(../images/astronaut.svg);
 }
-
-
 
 .paragraf {
   display: contents;
@@ -127,10 +121,8 @@
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 0;
-           text-align: center;
+  text-align: center;
            
-          
-
           @media screen and (min-width: $tablet) {
            text-align: left; 
               }

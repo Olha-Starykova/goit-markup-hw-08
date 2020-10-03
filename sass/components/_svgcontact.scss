@@ -1,5 +1,17 @@
+.div-footer-too {
+   margin-right: auto;
+  margin-left: auto;
+   text-align: center;
+
+}
+
+
 .footer-icon {
-  margin-left: 70px;
+ padding-bottom: 60px;
+    margin-right: auto;
+  margin-left: auto;
+   text-align: center;
+
 }
 
 .tekst-footer {
@@ -14,14 +26,20 @@
   color: $wite-color;
 
   padding-bottom: 20px;
-  padding-top: 72px;
+  padding-top: 0;
   margin: 0;
+   
 }
 
 .icon-footer {
   display: flex;
   justify-content: center;
   align-items: center;
+
+    margin-right: auto;
+  margin-left: auto;
+  
+
 }
 .href-button.white {
   background: rgba(255, 255, 255, 0.1);

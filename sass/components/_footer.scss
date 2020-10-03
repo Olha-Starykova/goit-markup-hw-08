@@ -1,15 +1,105 @@
-.margin {
-  margin-bottom: 20px;
-}
-.fon {
-  background: #2f303a;
+
+  .page .fon {
+  background-color: #2f303a;
   margin-right: auto;
   margin-left: auto;
-}
+  margin-top: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
 
-.footer {
-  height: 252px;
+    .logodark {
+    color: $wite-color;
+   }
+  }
+
+ .margin {
+  padding-bottom: 20px;
   padding-top: 60px;
-  padding-bottom: 60px;
-  width: 231px;
-}
+  margin-right: auto;
+  margin-left: auto;
+   text-align: center;
+
+
+ .logo.current {
+      color: $title-text-color;
+      font-family: Raleway, sans-serif;
+      letter-spacing: 0.03em;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.03em;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      text-decoration: none;
+
+          @media screen and (min-width: $tablet) {
+                      
+               padding-top: 26px;
+               padding-bottom: 26px;
+               font-size: 26px;
+               line-height: 1.19;
+          }
+        }
+     
+      .logoacc {
+    color: $accent-color;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+
+    font-size: 24px;
+    line-height: 1.16;
+    text-decoration: none;
+
+              @media screen and (min-width: $tablet) {
+                height: 80px;
+                width: 768px;         
+                padding-top: 26px;
+                padding-bottom: 26px;
+
+                font-size: 26px;
+                line-height: 1.19;
+              }
+  }
+
+  }
+
+  .footer {
+
+    padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+   text-align: center;
+
+  // height: 252px;
+  // padding-top: 60px;
+  // padding-bottom: 60px;
+  // width: 231px;
+
+
+
+      .margin-nav {
+      width: 231px;
+
+        margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+      .info-footer {
+      color: $transparent;
+      margin-bottom: 9px;
+    }
+      .addres {
+        color: $wite-color;
+        margin-bottom: 9px;
+        margin-top: 0;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.7;
+        color: $wite-color;
+      }
+  }

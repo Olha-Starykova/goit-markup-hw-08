@@ -6,8 +6,13 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
-  outline: 2px solid red;
+  // outline: 2px solid red;
 }
+
+  //  margin-right: auto;
+  //  margin-left: auto;
+  //  text-align: center;
+
 
 .page {
   background-color: var(--wite-color);
@@ -33,7 +38,14 @@ html {
   // padding: 0 15px;
    margin-right: auto;
    margin-left: auto;
+    
+  text-align: center;
+    
+
+        
 }
+
+
 .section {
   // display: flex;
 
@@ -44,11 +56,11 @@ html {
 }
 
 .navigation {
-  display: none;
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-}
+//   display: none;
+//   display: flex;
+//   align-items: center;
+//   margin-right: auto;
+ }
 
 // .page-header .flexbox {
 //   align-items: center;
@@ -56,8 +68,8 @@ html {
 // }
 .div {
   // max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
+  // margin-right: auto;
+  // margin-left: auto;
 }
 .img {
   display: block;
@@ -65,9 +77,3 @@ html {
   height: auto;
 }
 
-.footer-btn{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-}

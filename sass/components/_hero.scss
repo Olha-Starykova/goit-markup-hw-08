@@ -1,6 +1,7 @@
 
 
 .hero {
+ 
   display: block;
   text-align: center;
   margin-right: auto;
@@ -17,8 +18,8 @@
   background-repeat: no-repeat;
   background-position: center;
 
-   width: 480px;
-   height: 400px;
+  //  width: 480px;
+  //  height: 400px;
 
             @media screen and (min-width: $mobile) {
             width: 480px;
@@ -44,6 +45,27 @@
 //     margin-left: 60px;
 //     margin-top: 118px;
 //     margin-bottom: 118px;
+
+
+  margin-right: auto;
+  margin-left: auto;
+
+          @media screen and (min-width: $mobile) {
+            width: 480px;
+            height: 400px;
+              }
+
+          @media screen and (min-width: $tablet) {
+              height: 400px;
+              width: 768px;
+              }
+
+          @media screen and (min-width: $desktop) {
+              height: 600px;
+              width: 1600px;
+              padding: 0;
+              }
+
 }
 
       &-title {

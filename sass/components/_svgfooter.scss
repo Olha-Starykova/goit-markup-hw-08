@@ -1,20 +1,45 @@
-.li-icon {
+.li-icon {width: 100%;
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+
+    margin: -15px;
+
 }
 
 .six-link {
-  margin: 0;
-  width: calc((100% - 30px * 5) / 6);
-  height: 90px;
+width: 210px;
+ justify-content: center;
+ align-items: center;
+//   width: calc((100% - 30px * 5) / 6);
+   height: 90px;
+    width: calc((100% - 2 * 30px) / 2);
+            margin: 15px;
+            padding-bottom: 0;
+
+   @media screen and (min-width: $tablet ){
+            width: calc((100% - 3 * 30px) / 3);
+              }
+
+          @media screen and (min-width: $desktop) {
+             width: calc((100% - 30px * 6) / 6);
+
+            //  width: calc((100% - 4 * 30px) / 4);
+            // margin: 15px;
+            // padding-bottom: 0;
+             
+              }
+
+
 }
 
 .logo-link {
   display: flex;
   margin: 0;
-  width: 170px;
-  height: 90px;
+ 
+   height: 90px;
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -39,12 +64,18 @@
 }
 
 .logo-two {
+ 
   width: 40px;
   height: 52px;
   fill: currentColor;
 }
 
 .logo-three {
+   display: flex;
+ 
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
   width: 41px;
   height: 43px;
   fill: currentColor;

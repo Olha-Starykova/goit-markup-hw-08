@@ -1,14 +1,36 @@
+
+.footer-btn{
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: baseline;
+
+
+}
+
+
+
+.div-e-mail{
+  margin-right: auto;
+  margin-left: auto;
+   text-align: center;
+
+}
+
+
+
 .e-mail-input {
-  width: 358px;
+  // width: 358px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 4px;
-  margin-bottom: 94px;
+  margin-bottom: 20px;
 
   font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: normal; 
 font-size: 16px;
 line-height: 1.25;
 
@@ -44,7 +66,4 @@ color: rgba(255, 255, 255, 0.6);
   line-height: 14px;
   letter-spacing: 0.01em;
   color: $primary-text-color;
-}
-.div-footer-too {
-  margin-left: 93px;
 }

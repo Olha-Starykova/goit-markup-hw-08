@@ -2,8 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
   padding-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0;
+        
 }
 
 .li-button:not(:last-child) {
@@ -35,4 +39,6 @@
 .svg-button {
   fill: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 44px;
+  height: 44px;
 }
