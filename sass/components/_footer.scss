@@ -1,18 +1,25 @@
 
-  .page .fon {
-  background-color: #2f303a;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 60px;
-  padding-right: 15px;
-  padding-left: 15px;
+  .footer-fon{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
 
-    .logodark {
-    color: $wite-color;
-   }
+      @media screen and (max-width: 1199px) {
+                text-align: center;
+            }
+
+}
 
 
-    @media screen and (min-width: $mobile) {
+ .fon {
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 15px;
+      padding-left: 15px;
+
+           
+            
+            @media screen and (min-width: $mobile) {
                   width: 480px;
               
               }
@@ -20,8 +27,19 @@
             @media screen and (min-width: $tablet) {
               
                 width: 768px;
-              
-            }
+                 
+                  display: flex;
+                  align-items: baseline;
+               }
+
+               @media screen and (max-width: 1199px) and (min-width: 768px)
+ {
+    
+    justify-content: space-around;
+  
+    flex-wrap: wrap;
+}
+           
 
             @media screen and (min-width: $desktop) {
               
@@ -29,17 +47,36 @@
               
             }
 
+
+            @media screen and (max-width: 1199px) and (min-width: 768px) {
+
+              justify-content: space-around;
+              flex-wrap: wrap;
+             }
+
+        .logodark {
+        color: $wite-color;
+      }
+
   }
 
- .margin {
-  padding-bottom: 20px;
-  padding-top: 60px;
-  margin-right: auto;
-  margin-left: auto;
-   text-align: center;
+.footer-contacts{
+     
+  @media screen and (max-width: 1199px){
+ 
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px){
+   
+    display: flex;
+    align-items: baseline;
+  }
+
 
 
  .logo.current {
+       display: inline-block;
       color: $title-text-color;
       font-family: Raleway, sans-serif;
       letter-spacing: 0.03em;
@@ -47,14 +84,14 @@
       font-size: 24px;
       line-height: 28px;
       letter-spacing: 0.03em;
-      padding-top: 16px;
-      padding-bottom: 16px;
-      text-decoration: none;
+       text-decoration: none;
+
+           padding-top: 0;
+           padding-bottom: 0;
+           margin-right: 0;
 
           @media screen and (min-width: $tablet) {
-                      
-               padding-top: 26px;
-               padding-bottom: 26px;
+                   
                font-size: 26px;
                line-height: 1.19;
           }
@@ -71,54 +108,37 @@
     text-decoration: none;
 
               @media screen and (min-width: $tablet) {
-                height: 80px;
-                width: 768px;         
-                padding-top: 26px;
-                padding-bottom: 26px;
-
+                // height: 80px;
+                // width: 768px;         
+              
                 font-size: 26px;
                 line-height: 1.19;
               }
   }
-
   }
 
-  .footer {
+ 
 
-    padding-bottom: 60px;
-    margin-right: auto;
-    margin-left: auto;
-   text-align: center;
-
-  // height: 252px;
-  // padding-top: 60px;
-  // padding-bottom: 60px;
-  // width: 231px;
-
-
-
-      .margin-nav {
-      width: 231px;
-
-        margin-right: auto;
-      margin-left: auto;
-      text-align: center;
-    }
-
+    .footer-contacts{ 
+             
       .info-footer {
+        display: block;
       color: $transparent;
       margin-bottom: 9px;
-    }
-      .addres {
-        color: $wite-color;
-        margin-bottom: 9px;
-        margin-top: 0;
+       }
 
+      .addres {
+        
+        display: block;
+        color: $wite-color;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 1.7;
         color: $wite-color;
-      }
-  }
+        margin-top: 20px;
+
+      } 
+    }
+

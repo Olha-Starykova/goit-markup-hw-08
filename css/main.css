@@ -304,46 +304,90 @@ html {
   }
 }
 
-.page .fon {
-  background-color: #2f303a;
+.footer-fon {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2F303A;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-fon {
+    text-align: center;
+  }
+}
+
+.fon {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 60px;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.page .fon .logodark {
-  color: #ffffff;
-}
-
 @media screen and (min-width: 480px) {
-  .page .fon {
+  .fon {
     width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .page .fon {
+  .fon {
     width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .fon {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
 @media screen and (min-width: 1600px) {
-  .page .fon {
+  .fon {
     width: 1600px;
   }
 }
 
-.margin {
-  padding-bottom: 20px;
-  padding-top: 60px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .fon {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
-.margin .logo.current {
+.fon .logodark {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-contacts {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+.footer-contacts .logo.current {
+  display: inline-block;
   color: #000000;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
@@ -351,21 +395,20 @@ html {
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  padding-top: 16px;
-  padding-bottom: 16px;
   text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .margin .logo.current {
-    padding-top: 26px;
-    padding-bottom: 26px;
+  .footer-contacts .logo.current {
     font-size: 26px;
     line-height: 1.19;
   }
 }
 
-.margin .logoacc {
+.footer-contacts .logoacc {
   color: #2196f3;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
@@ -376,45 +419,28 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-  .margin .logoacc {
-    height: 80px;
-    width: 768px;
-    padding-top: 26px;
-    padding-bottom: 26px;
+  .footer-contacts .logoacc {
     font-size: 26px;
     line-height: 1.19;
   }
 }
 
-.footer {
-  padding-bottom: 60px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-.footer .margin-nav {
-  width: 231px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-.footer .info-footer {
+.footer-contacts .info-footer {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
 }
 
-.footer .addres {
+.footer-contacts .addres {
+  display: block;
   color: #ffffff;
-  margin-bottom: 9px;
-  margin-top: 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff;
+  margin-top: 20px;
 }
 
 .margin-botton {
@@ -1205,14 +1231,14 @@ html {
   border-radius: 4px;
 }
 
-.div-footer-too {
+.footer-icon {
+  padding-bottom: 60px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 }
 
-.footer-icon {
-  padding-bottom: 60px;
+.div-footer-too {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -1537,7 +1563,6 @@ html {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  padding-bottom: 60px;
 }
 
 .btm-too {
