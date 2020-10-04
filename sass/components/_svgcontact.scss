@@ -1,16 +1,26 @@
 
 .footer-icon {
- padding-bottom: 60px;
-    margin-right: auto;
-  margin-left: auto;
+margin-bottom: 60px;
+  
    text-align: center;
 
+   @media screen and (max-width: 1199px) {
+    text-align: center;
+}
+
+@media screen and (max-width: 1199px)
+ {
+    margin-bottom: 60px;
+}
 } 
 
 .div-footer-too {
-   margin-right: auto;
-  margin-left: auto;
+  
    text-align: center;
+
+    @media screen and (max-width: 1199px) {
+    text-align: center;
+}
 
 }
 

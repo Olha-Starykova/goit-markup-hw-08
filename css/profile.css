@@ -177,6 +177,15 @@ html {
   padding-left: 15px;
 }
 
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .fon {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .fon {
     width: 480px;
@@ -195,27 +204,9 @@ html {
   }
 }
 
-@media screen and (max-width: 1199px) and (min-width: 768px) {
-  .fon {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
 @media screen and (min-width: 1600px) {
   .fon {
     width: 1600px;
-  }
-}
-
-@media screen and (max-width: 1199px) and (min-width: 768px) {
-  .fon {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
 }
 
@@ -229,14 +220,9 @@ html {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .footer-contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    text-align: center;
   }
 }
 
@@ -882,16 +868,30 @@ html {
 }
 
 .footer-icon {
-  padding-bottom: 60px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-bottom: 60px;
   text-align: center;
 }
 
+@media screen and (max-width: 1199px) {
+  .footer-icon {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-icon {
+    margin-bottom: 60px;
+  }
+}
+
 .div-footer-too {
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .div-footer-too {
+    text-align: center;
+  }
 }
 
 .tekst-footer {
@@ -967,9 +967,9 @@ html {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
-  padding: 0 20px;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  padding: 15px 16px;
 }
 
 .e-mail-input::-webkit-input-placeholder {
