@@ -173,6 +173,24 @@ html {
   color: #ffffff;
 }
 
+@media screen and (min-width: 480px) {
+  .page .fon {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page .fon {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .page .fon {
+    width: 1600px;
+  }
+}
+
 .margin {
   padding-bottom: 20px;
   padding-top: 60px;
@@ -500,15 +518,30 @@ html {
   margin-right: 40px;
 }
 
-.centr {
-  padding-top: 60px;
-}
-
 .centrauto {
+  padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .centrauto {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .centrauto {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .centrauto {
+    width: 1600px;
+  }
 }
 
 .section.list {
@@ -690,6 +723,24 @@ html {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .container-six {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-six {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container-six {
+    width: 1600px;
+  }
 }
 
 .li-icon {

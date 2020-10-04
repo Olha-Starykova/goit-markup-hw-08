@@ -160,15 +160,30 @@ html {
   margin-right: 50px;
 }
 
-.centr {
-  padding-top: 60px;
-}
-
 .centrauto {
+  padding-top: 60px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .centrauto {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .centrauto {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .centrauto {
+    width: 1600px;
+  }
 }
 
 .section.list {
@@ -302,6 +317,24 @@ html {
 
 .page .fon .logodark {
   color: #ffffff;
+}
+
+@media screen and (min-width: 480px) {
+  .page .fon {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page .fon {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .page .fon {
+    width: 1600px;
+  }
 }
 
 .margin {
@@ -532,7 +565,12 @@ html {
 }
 
 .hero {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -775,6 +813,29 @@ html {
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.comanda-bgs {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .comanda-bgs {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .comanda-bgs {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .comanda-bgs {
+    width: 1600px;
+  }
+}
+
 .bgc {
   margin-right: auto;
   margin-left: auto;
@@ -815,15 +876,10 @@ html {
 }
 
 .section-four {
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-@media screen and (min-width: 480px) {
-  .section-four {
-    width: 480px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -849,7 +905,6 @@ html {
 }
 
 .four {
-  max-width: 100%;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1003,6 +1058,24 @@ html {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .container-six {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-six {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container-six {
+    width: 1600px;
+  }
 }
 
 .li-icon {

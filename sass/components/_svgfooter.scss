@@ -3,6 +3,25 @@
    margin-left: auto;
    text-align: center;
 
+
+    @media screen and (min-width: $mobile) {
+                  width: 480px;
+              
+             }
+
+             @media screen and (min-width: $tablet) {
+              
+               width: 768px;
+              
+         }
+
+          @media screen and (min-width: $desktop) {
+              
+              width: 1600px;
+              
+            }
+
+
 }
 
 .li-icon {
@@ -12,6 +31,7 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
+
 
 }
 
