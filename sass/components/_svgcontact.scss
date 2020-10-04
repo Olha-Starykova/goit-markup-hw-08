@@ -4,24 +4,42 @@ margin-bottom: 60px;
   
    text-align: center;
 
-   @media screen and (max-width: 1199px) {
-    text-align: center;
-}
+                @media screen and (max-width: 1599px) {
+                  text-align: center;
+              }
 
-@media screen and (max-width: 1199px)
- {
-    margin-bottom: 60px;
-}
+              @media screen and (max-width: 1599px)
+              {
+                  margin-bottom: 60px;
+              }
+
+                @media screen and (min-width: $tablet) {
+                          width: 50%;           }
 } 
 
 .div-footer-too {
-  
-   text-align: center;
 
-    @media screen and (max-width: 1199px) {
+   
+
+            @media screen and (min-width: $tablet) {
+              
+                width: 100%;
+              
+            }
+
+            @media screen and (min-width: $desktop) {
+              
+               margin-left: 93px;
+              
+            }
+
+    @media screen and (max-width: 1599px) {
     text-align: center;
-}
+     }
 
+@media screen and (min-width: 1600px){
+    margin-left: 94px;
+    }
 }
 
 .tekst-footer {

@@ -1,12 +1,23 @@
 
 .div-e-mail-btn{
-   margin-right: auto;
-  margin-left: auto;
+ 
    text-align: center;
-   
+
+            @media screen and (min-width: $desktop) {
+                 margin-left: 12px;
+              }
+
 }
 
+.footer-btn{
+  
+           @media screen and (min-width: $desktop) {
+              
+          display: flex;
+              
+        }
 
+}
 
 
 .btm-too {
