@@ -6,12 +6,30 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
-  // outline: 2px solid red;
+   outline: 2px solid red;
 }
 
   //  margin-right: auto;
   //  margin-left: auto;
   //  text-align: center;
+
+  //  @media screen and (min-width: $mobile) {
+  //                 width: 480px;
+              
+  //             }
+
+  //           @media screen and (min-width: $tablet) {
+              
+  //               width: 768px;
+              
+  //           }
+
+  //           @media screen and (min-width: $desktop) {
+              
+  //               width: 1600px;
+              
+  //           }
+
 
 
 .page {

@@ -1,24 +1,20 @@
 .four {
-  // width: calc((100% - 30px * 3) / 4);
-   width: 270px;
+   max-width: 270px;
   background-color: $wite-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
-  // &:not(:last-child) {
-  //   margin-right: 30px;
-  // }
 }
 
 
-.bgs{
+.bgc{
  
 margin-right:auto ;
 margin-left: auto;
 margin: 0;
   background-color: $fon-button;
-   width: 480px;
+   max-width: 480px;
 
 
   text-align: center;
@@ -82,14 +78,14 @@ margin: 0;
 }
 
 .four{
-text-align: center;
- justify-content: center;
+  text-align: center;
+  justify-content: center;
   background-position: center;
-    margin-right: auto;
+  margin-right: auto;
   margin-left: auto;
-  padding-top: 30px;
+  margin-bottom: 30px;
   width: 450px;
-  height: 622px;
+  
 
   
           @media screen and (min-width: $tablet) {
@@ -193,7 +189,5 @@ color: #212121;
               color: #212121;
 
                }
-
-
 
 }
