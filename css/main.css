@@ -54,6 +54,7 @@ html {
 
 @media screen and (min-width: 768px) {
   .pege-logo {
+    height: 80px;
     width: 768px;
     background-color: blue;
   }
@@ -61,6 +62,7 @@ html {
 
 @media screen and (min-width: 1600px) {
   .pege-logo {
+    height: 80px;
     width: 1600px;
     background-color: olive;
   }
@@ -77,12 +79,11 @@ html {
   padding-top: 16px;
   padding-bottom: 16px;
   text-decoration: none;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
   .pege-logo .logo.current {
-    padding-top: 26px;
-    padding-bottom: 26px;
     font-size: 26px;
     line-height: 1.19;
   }
@@ -96,14 +97,11 @@ html {
   font-size: 24px;
   line-height: 1.16;
   text-decoration: none;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
   .pege-logo .logo.current .logoacc {
-    height: 80px;
-    width: 768px;
-    padding-top: 26px;
-    padding-bottom: 26px;
     font-size: 26px;
     line-height: 1.19;
   }
@@ -572,6 +570,9 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: auto;
   margin-left: auto;
   background: #2f303a;
@@ -627,15 +628,11 @@ html {
   .hero-container-hero {
     height: 600px;
     width: 1600px;
-    padding: 0;
   }
 }
 
 .hero-title {
   color: #ffffff;
-  padding-top: 118px;
-  padding-bottom: 30px;
-  margin: 0;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -648,7 +645,6 @@ html {
   .hero-title {
     font-size: 44px;
     line-height: 1.36;
-    padding-top: 200px;
   }
 }
 
