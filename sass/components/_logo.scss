@@ -1,54 +1,60 @@
 
-.pege-logo{
+ 
+ .page-header{
+ position: relative;
+}
 
+ 
+.pege-logo{
+ 
   margin-left: auto;  
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-
+  padding-top: 16px;
+  padding-bottom: 16px;
+          
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
 
             @media screen and (min-width: $mobile) {
                   width: 480px;
-                background-color: orangered;
+              
               }
 
             @media screen and (min-width: $tablet) {
               height: 80px;
                 width: 768px;
-                  background-color:  blue;
+                 
             }
 
             @media screen and (min-width: $desktop) {
               height: 80px;
                 width: 1600px;
-               background-color:  olive;
+               
             }
 
 
 
 .logo.current {
 
-  color: $title-text-color;
-
+      color: $title-text-color;
       font-family: Raleway, sans-serif;
       letter-spacing: 0.03em;
       font-weight: bold;
       font-size: 24px;
       line-height: 28px;
       letter-spacing: 0.03em;
-      
-      padding-top: 16px;
-      padding-bottom: 16px;
       text-decoration: none;
-      padding: 0;
 
-   
           @media screen and (min-width: $tablet) {
                       
               //  padding-top: 26px;
               //  padding-bottom: 26px;
                font-size: 26px;
                line-height: 1.19;
+                 
           }
      
 
@@ -76,6 +82,48 @@
  }
 }
 
+.menu-button {
 
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    background-color: transparent;
 
+    .icon-cross{
+      display: none;
+    }  
 
+}
+
+.menu-button.is-open .icon-cross{
+  display: block;
+}
+
+.menu-button.is-open .icon-menu{
+  display: none;
+}
+
+.menu-container{
+display: none;
+
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  background: #fac4c4;
+  box-shadow: 0px 4px 8px
+  rgba(0, 0, 0, 0.04), 0px 2px 4px
+  rgba(0, 0, 0, 0.08), 0px 1px 3px
+  rgba(0, 0, 0, 0.16);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &.is-open{
+    display: block;
+  }
+
+  }
