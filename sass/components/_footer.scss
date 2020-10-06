@@ -4,12 +4,35 @@
     padding-bottom: 60px;
     background-color: #2F303A;
 
-      @media screen and (max-width: 1599px) {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+
+
+  
+           
+
+ 
+            @media screen and (min-width: $mobile) {
+            width: 480px;
+          
+              }
+
+            @media screen and (min-width: $tablet) {
+             
+                width: 768px;
+                }
+
+            @media screen and (min-width: 1200px) {
+                max-width: 1600px;
+                  }
+
+
+           @media screen and (max-width: 1199px) {
                 text-align: center;
+
             }
-
             
-
 }
 
 
@@ -19,7 +42,7 @@
       padding-right: 15px;
       padding-left: 15px;
 
-      @media screen and (max-width: 1599px) and (min-width: 768px) {
+      @media screen and (max-width: 1199px) and (min-width: 768px) {
           justify-content: space-around;
            flex-wrap: wrap;
       }
@@ -36,7 +59,7 @@
 
               
             @media screen and (min-width: $desktop) {
-                    width: 1600px;
+                  width: 1200px;
               
             }
 
@@ -65,11 +88,11 @@
 
 
           
-        @media screen and (max-width: 1599px){
+        @media screen and (max-width: 1199px){
       
           margin-bottom: 60px;
             }
-          @media screen and (max-width: 1599px)
+          @media screen and (max-width: 1199px)
           {
               text-align: center;
           }
@@ -109,8 +132,7 @@
     text-decoration: none;
 
               @media screen and (min-width: $tablet) {
-                // height: 80px;
-                // width: 768px;         
+            
               
                 font-size: 26px;
                 line-height: 1.19;

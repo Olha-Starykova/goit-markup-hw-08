@@ -6,7 +6,13 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
-   outline: 2px solid red;
+  //  outline: 2px solid red;
+}
+
+img{
+  display: block;
+  min-width: 100%;
+  height: auto;
 }
 
   //  margin-right: auto;
@@ -22,7 +28,7 @@ html {
         //                }
 
   //           @media screen and (min-width: $desktop) {
-                //               width: 1600px;
+                //               width: 1200px;
                 //           }
 
 

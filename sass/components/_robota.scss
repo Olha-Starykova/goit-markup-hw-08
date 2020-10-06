@@ -2,23 +2,19 @@
 
 .container{
   
-  margin-right: auto;
+    margin-right: auto;
     margin-left: auto;
     text-align: center;
 
-         @media screen and (max-width: 1599px) {
-              
-                display: none;
+         @media screen and (max-width: 1199px) {
+                              display: none;
                         }
 
-       
 
           @media screen and (min-width: $desktop) {
-                             width: 1600px;
+                               width: 1200px;
                            }
-
-}
-
+           }
 
 .robota{
  
@@ -40,11 +36,6 @@
 
       width: calc((100% - 3 * 30px) / 3);
             margin: 15px;
-
-//   &:not(:last-child) {
-//   margin-right: 30px;
-// }
-
 
 }
 
