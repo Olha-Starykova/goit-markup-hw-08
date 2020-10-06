@@ -722,6 +722,14 @@ html {
   list-style: none;
 }
 
+@media screen and (min-width: 1600px) {
+  .proba {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .button-info {
   vertical-align: middle;
   -webkit-box-align: center;
@@ -751,6 +759,12 @@ html {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1600px) {
+  .tel {
+    margin-left: 30px;
+  }
 }
 
 .tel:hover {
@@ -1678,8 +1692,8 @@ html {
 
 @media screen and (min-width: 1600px) {
   .modal {
-    width: 528px;
-    height: 581px;
+    min-width: 528px;
+    min-height: 581px;
   }
 }
 
@@ -1738,10 +1752,22 @@ html {
   color: #757575;
 }
 
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 767px) {
   .label-check {
     font-size: 12px;
   }
+}
+
+.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .a-check {

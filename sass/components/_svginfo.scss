@@ -54,7 +54,7 @@ display: list-item;
 list-style: none;
 
       @media screen and (min-width: $desktop) {
-                //  display: flex;  
+                 display: flex;  
                       
                           }
  
@@ -89,9 +89,13 @@ list-style: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+          @media screen and (min-width: $desktop) {
+                                      margin-left: 30px;
+            }
 
   &:hover {
   color: $accent-color;
+
 }
 }
 

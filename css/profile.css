@@ -781,6 +781,14 @@ html {
   list-style: none;
 }
 
+@media screen and (min-width: 1600px) {
+  .proba {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .button-info {
   vertical-align: middle;
   -webkit-box-align: center;
@@ -810,6 +818,12 @@ html {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1600px) {
+  .tel {
+    margin-left: 30px;
+  }
 }
 
 .tel:hover {
