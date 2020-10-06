@@ -36,7 +36,12 @@ html {
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
+}
+
+@media screen and (max-width: 787px) {
+  .page-header {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -166,12 +171,9 @@ html {
 }
 
 .menu-container {
-  padding: 20px;
-  text-align: center;
+  padding: 40px;
   font-size: 20px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -193,9 +195,6 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding: 0;
     margin: 0;
   }
@@ -778,14 +777,8 @@ html {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-}
-
-@media screen and (min-width: 1600px) {
-  .proba {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+  display: list-item;
+  list-style: none;
 }
 
 .button-info {
@@ -829,6 +822,7 @@ html {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 480px) {

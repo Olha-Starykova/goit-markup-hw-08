@@ -50,10 +50,12 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-
+display: list-item;  
+list-style: none;
 
       @media screen and (min-width: $desktop) {
-                 display: flex;     
+                //  display: flex;  
+                      
                           }
  
 }

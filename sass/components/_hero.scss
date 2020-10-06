@@ -38,25 +38,24 @@
               }
 
  
-  &-container-hero {
+  & .container-hero {
  
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 118px;
+  margin-top: 118px;
 
           @media screen and (min-width: $mobile) {
-            width: 480px;
-            height: 400px;
+       
               }
 
           @media screen and (min-width: $tablet) {
-              height: 400px;
-              width: 768px;
+            
               }
 
           @media screen and (min-width: $desktop) {
-              height: 600px;
-              width: 1600px;
-            
+            margin-bottom: 200px;
+            margin-top: 200px;
               }
 
             }
@@ -70,6 +69,7 @@
       font-weight: 900;
       font-size: 26px;
       line-height: 1.62;
+      margin-top: 0;
 
             @media screen and (min-width: $desktop) {
                 font-size: 44px;

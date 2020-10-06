@@ -4,6 +4,11 @@
   justify-content: center;
   margin-bottom: 30px;
   position: relative;
+
+
+    @media screen and (max-width: 1599px){
+       padding-left: 20px; }
+
 }
 
 .visually {
@@ -35,6 +40,11 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+
+  @media screen and (max-width: 1599px){
+    font-size: 12px;
+}
+
 }
 
 .a-check {
@@ -71,6 +81,9 @@
   line-height: 1.87;
   border: none;
   letter-spacing: 0.06em;
-  margin-left: 124px;
-  color: #ffffff;
+   color: #ffffff;
+
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
 }
