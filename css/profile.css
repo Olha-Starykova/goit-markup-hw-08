@@ -8,6 +8,7 @@ html {
 *::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  outline: 2px solid red;
 }
 
 img {
@@ -41,6 +42,7 @@ img {
   position: relative;
   margin-right: auto;
   margin-left: auto;
+  height: 60px;
 }
 
 @media screen and (max-width: 787px) {
@@ -74,6 +76,7 @@ img {
   padding-right: 15px;
   padding-top: 16px;
   padding-bottom: 16px;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,6 +91,7 @@ img {
 @media screen and (min-width: 480px) {
   .pege-logo {
     height: 60px;
+    width: 480px;
   }
 }
 
@@ -182,11 +186,12 @@ img {
 }
 
 .menu-container {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-size: 20px;
   background: #FFFFFF;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .menu-container {
@@ -224,6 +229,7 @@ img {
     top: 100%;
     left: 0;
     width: 100%;
+    height: 453px;
   }
   .menu-container.is-open {
     display: block;
@@ -351,6 +357,7 @@ img {
 @media screen and (min-width: 768px) {
   .footer-fon {
     width: 768px;
+    height: 463px;
   }
 }
 
@@ -495,7 +502,7 @@ img {
 
 .prortfolio {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 45px;
 }
 
 .container {
@@ -555,7 +562,7 @@ img {
 .container-button {
   padding-left: 0;
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,7 +593,6 @@ img {
   border-radius: 4px;
   border: none;
   margin-left: 0;
-  margin-bottom: 34px;
 }
 
 .button:not(:last-child) {
@@ -823,6 +829,10 @@ img {
   text-decoration: none;
 }
 
+.tel.info.link {
+  margin-bottom: 0;
+}
+
 .proba {
   margin-top: 0;
   margin-bottom: 0;
@@ -886,7 +896,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 480px) {
@@ -989,13 +999,17 @@ img {
 }
 
 .paragraf {
-  display: contents;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 30px;
+}
+
+.paragraf:not(:last-child) {
+  padding-bottom: 30px;
 }
 
 .section-sub {
@@ -1081,6 +1095,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  margin-bottom: 45px;
 }
 
 @media screen and (min-width: 480px) {
@@ -1098,6 +1113,8 @@ img {
 @media screen and (min-width: 1200px) {
   .container-six {
     width: 1200px;
+    margin-bottom: 79px;
+    margin-top: 34px;
   }
 }
 

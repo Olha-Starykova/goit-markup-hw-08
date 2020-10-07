@@ -6,7 +6,7 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 
 
 
@@ -121,14 +121,22 @@
 }
 
 .paragraf {
-  display: contents;
+
    font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: $primary-text-color;
+      padding-bottom: 30px;
+
 }
+
+.paragraf:not(:last-child) {
+    padding-bottom: 30px;
+}
+
+
 
 .section-sub{
   color: $dark-color;
