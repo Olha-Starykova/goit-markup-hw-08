@@ -339,7 +339,7 @@ img {
           align-items: center;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1600px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1200px) {

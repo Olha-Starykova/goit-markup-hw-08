@@ -481,7 +481,7 @@ img {
           align-items: center;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1600px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1200px) {
@@ -837,7 +837,8 @@ img {
   background: #2f303a;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/herogo.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herogo.jpg);
-  max-width: 1600px;
+  max-width: 100%;
+  height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -846,6 +847,8 @@ img {
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/herogo.jpg), url(../images/herogo.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herogo.jpg), url(../images/herogo.jpg);
   }
 }
 
@@ -853,6 +856,8 @@ img {
   .hero {
     width: 480px;
     height: 400px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/mobile/Header_img.jpg), url(../images/mobile/Header_img@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/Header_img.jpg), url(../images/mobile/Header_img@2x.jpg);
   }
 }
 
@@ -860,6 +865,8 @@ img {
   .hero {
     height: 400px;
     width: 768px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/tabletHeader_img.jpg), url(../images/tablet/Header_img@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tabletHeader_img.jpg), url(../images/tablet/Header_img@2x.jpg);
   }
 }
 
@@ -868,6 +875,8 @@ img {
     height: 600px;
     width: 1600px;
     padding: 0;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/desktop/bcg.jpg), url(../images/desktop/bcg@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/bcg.jpg), url(../images/desktop/bcg@2x.jpg);
   }
 }
 
@@ -1199,7 +1208,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   background-color: #f5f4fa;
-  max-width: 1600px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1200px) {
