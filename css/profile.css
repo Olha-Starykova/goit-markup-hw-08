@@ -8,7 +8,6 @@ html {
 *::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
-  outline: 2px solid red;
 }
 
 img {
@@ -74,7 +73,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 16px;
+  padding-top: 6px;
   padding-bottom: 16px;
   height: 60px;
   display: -webkit-box;
@@ -201,6 +200,7 @@ img {
 @media screen and (max-width: 767px) {
   .menu-container {
     display: block;
+    height: 35px;
     -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
   }
@@ -627,15 +627,8 @@ img {
   list-style: none;
 }
 
-@media screen and (min-width: 480px) {
-  .list.portfolio {
-    width: 480px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .list.portfolio {
-    width: 768px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -651,7 +644,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .list.portfolio {
-    width: 1200px;
     margin: -15px;
   }
 }
@@ -749,15 +741,8 @@ img {
   margin-left: auto;
 }
 
-@media screen and (min-width: 480px) {
-  .item-portfolio {
-    width: 480px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .item-portfolio {
-    width: 768px;
     width: calc((100% - 2 * 30px) / 2);
     margin: 15px;
     padding-bottom: 0;
@@ -766,7 +751,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .item-portfolio {
-    width: 1200px;
     width: calc((100% - 3 * 30px) / 3);
     margin: 15px;
     padding-bottom: 0;
@@ -1355,15 +1339,8 @@ img {
   padding: 15px 16px;
 }
 
-@media screen and (min-width: 768px) {
-  .e-mail-input {
-    width: 450px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .e-mail-input {
-    width: 358px;
     margin: 0;
   }
 }

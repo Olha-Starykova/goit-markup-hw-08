@@ -121,11 +121,11 @@
   list-style: none;
 
         @media screen and (min-width: $mobile) {
-                width: 480px;
+              
               }
 
          @media screen and (min-width: $tablet) {
-                             width: 768px;
+                            
              display: flex;
               flex-wrap: wrap; 
               margin: -15px;
@@ -137,7 +137,7 @@
                        }
 
         @media screen and (min-width: $desktop) {
-                            width: 1200px;
+                          
                           margin: -15px;
                           }
 
@@ -242,11 +242,11 @@
  
 
           @media screen and (min-width: $mobile) {
-                width: 480px;
+               
               }
 
          @media screen and (min-width: $tablet) {
-                             width: 768px;
+                        
           
             width: calc((100% - 2 * 30px) / 2);
             margin: 15px;
@@ -257,7 +257,7 @@
                        }
 
         @media screen and (min-width: $desktop) {
-                           width: 1200px;
+                         
                           width: calc((100% - 3 * 30px) / 3);
                           margin: 15px;
                           padding-bottom: 0;

@@ -85,7 +85,7 @@ margin-left: auto;
  padding-right: 15px;
          
           @media screen and (min-width: $tablet) {           
-               width: 768px;
+              
             display: flex;
               flex-wrap: wrap; 
               padding-left: 0;
@@ -97,7 +97,7 @@ margin-left: auto;
           @media screen and (min-width: $desktop) {
              
           
-              width: 1200px;
+            
               
                }
 }
@@ -191,13 +191,13 @@ letter-spacing: 0.03em;
 color: #212121;
 
           @media screen and (min-width: $tablet) {               width: 768px;
-               width: 768px;
+          
            
               }
 
           @media screen and (min-width: $desktop) {
                       
-              width: 1200px;
+              
               font-family: Roboto;
               font-style: normal;
               font-weight: bold;
