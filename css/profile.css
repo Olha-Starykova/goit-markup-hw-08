@@ -63,13 +63,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .page-header {
-    width: 1600px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: 1200px;
   }
 }
 
@@ -104,7 +98,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .pege-logo {
     width: 1200px;
     height: 80px;
@@ -148,16 +142,28 @@ img {
 }
 
 .menu-button {
+  outline: none;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin: 0;
   padding: 0;
-  border: 0px;
+  border: none;
   background-color: transparent;
 }
 
-.menu-button .icon-cross {
+.menu-button:focus :hover {
+  fill: #2196f3;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 9px;
+}
+
+.icon .icon-cross {
   display: none;
 }
 
@@ -183,9 +189,15 @@ img {
   padding-bottom: 60px;
 }
 
+.menu-container {
+  background: #FFFFFF;
+}
+
 @media screen and (max-width: 767px) {
   .menu-container {
     display: block;
+    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
   }
 }
 
@@ -315,14 +327,24 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2F303A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
+  max-width: 1600px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1200px) {
   .footer-fon {
-    width: 480px;
+    max-width: 1600px;
   }
 }
 
@@ -334,7 +356,9 @@ img {
 
 @media screen and (min-width: 1200px) {
   .footer-fon {
-    max-width: 1600px;
+    height: 252px;
+    width: 1600px;
+    padding: 0;
   }
 }
 

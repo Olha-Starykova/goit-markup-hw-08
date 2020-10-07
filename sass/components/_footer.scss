@@ -4,35 +4,46 @@
     padding-bottom: 60px;
     background-color: #2F303A;
 
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
 
+    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+ 
+        max-width: 1600px;
 
   
-           
-
- 
-            @media screen and (min-width: $mobile) {
-            width: 480px;
-          
-              }
-
-            @media screen and (min-width: $tablet) {
-             
-                width: 768px;
-                }
 
             @media screen and (min-width: 1200px) {
                 max-width: 1600px;
                   }
 
+ 
+            @media screen and (min-width: $mobile) {
+        
+          
+              }
 
-           @media screen and (max-width: 1199px) {
+            @media screen and (min-width: $tablet) {
+           
+                width: 768px;
+                }
+
+              @media screen and (min-width: $desktop) {
+               height: 252px;
+                  width: 1600px;
+                  padding: 0;
+                  } 
+
+
+                  @media screen and (max-width: 1199px) {
                 text-align: center;
 
             }
-            
+     
 }
 
 

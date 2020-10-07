@@ -20,9 +20,8 @@
                     }
 
       @media screen and (min-width: $desktop) {
-                          width: 1600px;
-                          display: flex;
-                          align-items: center;
+                          width: 1200px;
+                     
                         }
 
 
@@ -54,8 +53,8 @@
                  
             }
 
-            @media screen and (min-width: 1600px) {
-               width: 1200px;
+            @media screen and (min-width: 1200px) {
+                width: 1200px;
                height: 80px;
                
             }
@@ -76,8 +75,7 @@
 
           @media screen and (min-width: $tablet) {
                       
-              //  padding-top: 26px;
-              //  padding-bottom: 26px;
+       
                font-size: 26px;
                line-height: 1.19;
                  
@@ -96,11 +94,7 @@
     padding: 0;
 
               @media screen and (min-width: $tablet) {
-              
-                       
-                // padding-top: 26px;
-                // padding-bottom: 26px;
-
+            
                 font-size: 26px;
                 line-height: 1.19;
               }
@@ -109,21 +103,37 @@
 }
 
 .menu-button {
-
+ 
+      outline: none;
     display: inline-flex;
     margin: 0;
     padding: 0;
-    border: 0px;
+    border: none;
     background-color: transparent;
+
+
+   
+
+        &:focus :hover {
+       fill: #2196f3;}
+      }
+
+
+      .icon{
+
+        display: flex;
+       
+        padding: 9px;
 
 
 
     .icon-cross{
+      
       display: none;
     }  
-
-        
-        }
+ 
+    }
+   
 
 .menu-button {
  
@@ -143,8 +153,7 @@
 
 .menu-container{
   padding: 40px;
-  
-  font-size: 20px;
+    font-size: 20px;
   background: #FFFFFF;
    padding-top: 60px;
   padding-bottom: 60px;
@@ -153,9 +162,16 @@
 
 
       .menu-container{
+
+        background: #FFFFFF;
+      
+
         @media screen and (max-width: 767px){
                 display: block;
                 // text-align: center;
+                  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+                   0px 1px 3px rgba(0, 0, 0, 0.16);
+
           }
 
         @media screen and (min-width: $mobile) {
