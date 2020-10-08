@@ -195,6 +195,7 @@ img {
 
 .menu-container {
   background: #FFFFFF;
+  z-index: 2;
 }
 
 @media screen and (max-width: 767px) {
@@ -2105,6 +2106,12 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-position-y: center;
   background-position-x: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-input {
+    width: 448px;
+  }
 }
 
 .form-input:focus ~ .from-svg {

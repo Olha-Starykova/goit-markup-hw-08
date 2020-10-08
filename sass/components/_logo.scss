@@ -75,6 +75,7 @@
       letter-spacing: 0.03em;
       text-decoration: none;
 
+
           @media screen and (min-width: $tablet) {
                       
        
@@ -167,6 +168,7 @@
       .menu-container{
 
         background: #FFFFFF;
+        z-index: 2;
       
 
         @media screen and (max-width: 767px){

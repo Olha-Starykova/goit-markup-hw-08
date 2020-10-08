@@ -50,8 +50,12 @@
   background-position-x: center;
 
             @media screen and (min-width: $desktop) {
-                  
+                   width: 448px;
             }
+
+            
+
+   
 
 &:focus ~ .from-svg {
   fill: $accent-color;
