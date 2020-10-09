@@ -1,8 +1,4 @@
-
-
-
 .comanda-bgs{
-
   display: flex;
   justify-content: center;
   text-align: center;
@@ -10,204 +6,126 @@
   margin-right: auto;
   margin-left: auto;
   background-color: $fon-button;
-  
-        max-width: 100%;
-        // height: 708px;
-
-  
-            @media screen and (min-width: 1200px) {
-                max-width: 1600px;
-                margin-top: 94px;
+   max-width: 100%;
+                   @media screen and (min-width: 1200px) {
+                              margin-top: 94px;
                   }
-
- 
-            @media screen and (min-width: $mobile) {
-            width: 480px;
-            
-              }
-
-            @media screen and (min-width: $tablet) {
-            
-                width: 768px;
-                }
-
-              @media screen and (min-width: $desktop) {
-                
-                  width: 1600px;
-                 
-                  }
-}
-
+                    
 .bgc{
- 
-margin-right:auto ;
-margin-left: auto;
+   margin-right:auto ;
+   margin-left: auto;
    text-align: center;
-              padding-left: 15px;
-              padding-right: 15px;
-           padding-bottom: 45px;   
-
-          
-
-
-
-         @media screen and (min-width: $mobile) {
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 45px;   
+                @media screen and (min-width: $mobile) {
                 width: 480px;
-                    padding-left: 0;
-              padding-right: 0;
-              
-             }
-         
-          @media screen and (min-width: $tablet) {              
-          width: 768px;
+                 padding-left: 0;
+                 padding-right: 0;
+                           }
+                   @media screen and (min-width: $tablet) {              
+              width: 768px;
               flex-wrap: wrap; 
               padding-left: 0;
               padding-right: 0;
-              // padding-top: 45px;   
-              }
-
+                           }
           @media screen and (min-width: $desktop) {
-       width: 1200px;
+              width: 1200px;
               padding-bottom: 94px;
-               
-               }
+                              }
 
 }
-
+}
 
 .section-four{
- width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
   padding: 0;
   list-style: none;
-
    padding-left: 15px;
- padding-right: 15px;
-         
-          @media screen and (min-width: $tablet) {           
-              
-            display: flex;
+  padding-right: 15px;
+                   @media screen and (min-width: $tablet) {           
+              display: flex;
               flex-wrap: wrap; 
               padding-left: 0;
               padding-right: 0;
-          
-
-              }
-
-          @media screen and (min-width: $desktop) {
-             
-          
-            
-              
-               }
-}
+                        }
+         }
 
 .four{
-
   background-color: $wite-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-
   text-align: center;
   justify-content: center;
   background-position: center;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
- 
-  
-
-  
-          @media screen and (min-width: $tablet) {
+           @media screen and (min-width: $tablet) {
             width: calc((100% - 2 * 30px) / 2);
             margin: 15px;
             padding-bottom: 0;
-
               }
-
           @media screen and (min-width: $desktop) {
              width: calc((100% - 4 * 30px) / 4);
             margin: 15px;
             padding-bottom: 0;
-             
-              }
+                           }
 }
-
-
-
 .section-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   font-style: normal;
-
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
-
-
-  color: $dark-color;
-}
+   color: $dark-color;
+             @media screen and (min-width: $mobile) {
+                 margin-bottom: 10px;
+               margin-top: 30px;
+                            }
+                 }
  .section-en {
   margin: 0;
   padding: 0;
-
   font-size: 16px;
   line-height: 1.18;
-
   text-align: center;
-
   font-style: normal;
   font-weight: normal;
-
   letter-spacing: 0.03em;
-
-
-
   color: $primary-text-color;
 }
 
 .section-title-co{
- 
- justify-content: center;
+  justify-content: center;
   background-position: center;
-    margin-right: auto;
+  margin-right: auto;
   margin-left: auto;
   padding-top: 60px;   
-   padding-bottom: 30px;
-   margin: 0;
-
-   font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 1.17;
-
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
-          @media screen and (min-width: $tablet) {               width: 768px;
-          
-           
-              }
-
+  padding-bottom: 30px;
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+          @media screen and (min-width: $tablet) {              
+           width: 768px;
+                         }
           @media screen and (min-width: $desktop) {
-                      
-              
+              width: 1200px;          
               font-family: Roboto;
               font-style: normal;
               font-weight: bold;
               font-size: 36px;
               line-height: 1.16;
-              
               letter-spacing: 0.03em;
-
               color: #212121;
-
-               }
-
+                          }
 }

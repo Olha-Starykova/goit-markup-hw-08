@@ -1,116 +1,69 @@
 
-  .footer-fon{
+ .footer-fon{
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
-
-
-    
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: center;                                        
   align-items: center;
   margin-right: auto;
   margin-left: auto;
- 
-        max-width: 100%;
+    max-width: 100%;
+                        @media screen and (min-width: $tablet) {
+                           height: 463px;
+                              }
+                        @media screen and (min-width: $desktop) {
+                        height: 252px;
+                        text-align: inherit;
+                         padding: 0;
+                            } 
+                        @media screen and (max-width: 1199px) {
+                      text-align: center;
+                              }
+     }
 
-  
-
-            @media screen and (min-width: 1200px) {
-                max-width: 1600px;
-                  }
-
- 
-            @media screen and (min-width: $mobile) {
-        
-          
-              }
-
-            @media screen and (min-width: $tablet) {
-           
-                width: 768px;
-                height: 463px;
-                }
-
-              @media screen and (min-width: $desktop) {
-               height: 252px;
-                  width: 1600px;
-                  padding: 0;
-                  } 
-
-
-                  @media screen and (max-width: 1199px) {
-                text-align: center;
-
-            }
-     
-}
-
-
- .fon {
+     .fon {
       margin-right: auto;
       margin-left: auto;
       padding-right: 15px;
       padding-left: 15px;
-
-      @media screen and (max-width: 1199px) and (min-width: 768px) {
+      @media screen and (max-width: 1199px) and (min-width: $tablet) {
           justify-content: space-around;
            flex-wrap: wrap;
       }
-
             @media screen and (min-width: $mobile) {
                   width: 480px;
                             }
-
             @media screen and (min-width: $tablet) {
                   width: 768px;
                   display: flex;
                   align-items: baseline;
                }
-
-              
-            @media screen and (min-width: $desktop) {
+             @media screen and (min-width: $desktop) {
                   width: 1200px;
-              
-            }
-
+                          }
 
         .logodark {
         color: $wite-color;
       }
-
   }
 
       .footer-contacts{
-
- 
-
             @media screen and (min-width: $tablet) {
-              
-                width: 50%;
-              
-            }
-
+                              width: 50%;
+                          }
             @media screen and (min-width: $desktop) {
-              
-                   margin-right: 70px;
-              
-            }
-
-
-          
-        @media screen and (max-width: 1199px){
-      
-          margin-bottom: 60px;
+                                 margin-right: 70px;
+                          }
+                 @media screen and (max-width: 1199px){
+                margin-bottom: 60px;
             }
           @media screen and (max-width: 1199px)
           {
               text-align: center;
           }
-
-        
-
+       
  .logo.current {
        display: inline-block;
       color: $title-text-color;
@@ -121,13 +74,10 @@
       line-height: 28px;
       letter-spacing: 0.03em;
        text-decoration: none;
-
            padding-top: 0;
            padding-bottom: 0;
            margin-right: 0;
-
           @media screen and (min-width: $tablet) {
-                   
                font-size: 26px;
                line-height: 1.19;
           }
@@ -138,22 +88,16 @@
     font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
     font-weight: bold;
-
     font-size: 24px;
     line-height: 1.16;
     text-decoration: none;
-
               @media screen and (min-width: $tablet) {
-            
-              
+                
                 font-size: 26px;
                 line-height: 1.19;
               }
   }
   }
-
- 
-
     .footer-contacts{ 
              
       .info-footer {
@@ -163,7 +107,6 @@
        }
 
       .addres {
-        
         display: block;
         color: $wite-color;
         font-family: Roboto;
@@ -173,7 +116,6 @@
         line-height: 1.7;
         color: $wite-color;
         margin-top: 20px;
-
       } 
     }
 

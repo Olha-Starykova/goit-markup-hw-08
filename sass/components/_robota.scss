@@ -1,42 +1,27 @@
-
-
 .container{
-  
-    margin-right: auto;
+      margin-right: auto;
     margin-left: auto;
     text-align: center;
-
          @media screen and (max-width: 1199px) {
                               display: none;
                         }
-
-
           @media screen and (min-width: $desktop) {
                                width: 1200px;
                            }
            }
 
 .robota{
- 
-    display: flex;
+     display: flex;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-
     margin: -15px;
-
 }
-
-
-
-
 .rob {
   display: flex;
   position: relative;
-
       width: calc((100% - 3 * 30px) / 3);
             margin: 15px;
-
 }
 
 .annexes {
@@ -73,7 +58,6 @@
   font-size: 36px;
   line-height: 1.16;
   margin-bottom: 50px;
-
   margin-top: 0;
   text-align: center;
 

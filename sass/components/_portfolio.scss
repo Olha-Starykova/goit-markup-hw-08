@@ -1,46 +1,40 @@
-
 .prortfolio{
       padding-top: 60px;
       padding-bottom: 45px;
 }
-
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
+      margin-left: auto;
     margin-right: auto;
-
-    
-        
-
             @media screen and (min-width: $mobile) {
                   width: 480px;
+                  padding-left: 15px;
+                  padding-right: 15px;
                             }
-
             @media screen and (min-width: $tablet) {
                               width: 768px;
+                              padding-left: 0;
+                              padding-right: 0;
                           }
-
             @media screen and (min-width: $desktop) {
                               width: 1200px;
                           }
-
 }
 
 .liniya {
   text-decoration: none;
   border: none;
-}
+  }
 .section-titles {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: $dark-color;
-  padding-bottom: 8px;
-  margin: 0;
+  padding: 0;
+   margin-bottom: 4px;
+  margin-top: 0;
   text-decoration: none;
-}
+           }
 
 .section.wrap {
   display: flex;
@@ -50,26 +44,19 @@
 }
 
 .container-button {
-  
-    padding-left: 0;
+      padding-left: 0;
     margin-top: 0;
     margin-bottom: 40px;
-
     display: flex;
     padding-left: 0;
-  
-        @media screen and (min-width: 768px) {
-          
-            justify-content: center;
+          @media screen and (min-width: $tablet) {
+                      justify-content: center;
         }
-
               @media screen and (max-width: 767px){
                flex-wrap: wrap;
               }
   }
   
-
-
  .button {
   font-weight: 500;
   font-size: 16px;
@@ -79,21 +66,13 @@
   border-radius: 4px;
   border: none;
   margin-left: 0;
-      // margin-bottom: 34px;
-
-
-  &:not(:last-child) {
+    &:not(:last-child) {
     margin-right: 8px;
-
-
   &:nth-child(-n+3){
    @media screen and (max-width: 767px){
     margin-bottom: 15px;
    }
-
-   
-
-}
+ }
 }
  }
   
@@ -102,47 +81,25 @@
   color: $dark-color;
   background-color: $fon-button;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 &:hover,
 &:focus {
   color: $wite-color;
   background-color: $accent-color;
 }
 }
-
-
-
 .list.portfolio{
-
    width: 100%;
     margin: 0;
   padding: 0;
   list-style: none;
-
-        @media screen and (min-width: $mobile) {
-              
-              }
-
-         @media screen and (min-width: $tablet) {
-                            
-             display: flex;
+            @media screen and (min-width: $tablet) {
+              display: flex;
               flex-wrap: wrap; 
-              margin: -15px;
-            padding-bottom: 0;
+              padding-bottom: 0;
               padding-left: 0;
               padding-right: 0;
-             margin: -15px;
-
-                       }
-
-        @media screen and (min-width: $desktop) {
-                          
-                          margin: -15px;
-                          }
-
-
-}
+                            }
+     }
 
 .text{
     padding: 20px 24px;
@@ -153,45 +110,36 @@
   line-height: 1.87;
   margin-bottom: 0px;
   margin-top: 0;
-
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-
   letter-spacing: 0.03em;
   color: $primary-text-color;
-
   text-decoration: none;
   border: none;
 }
 
-
-
 .texno {
   display: flex;
   position: absolute;
-
-  width: 322px;
-  height: 168px;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
   color: #ffffff;
-
   font-size: 18px;
   line-height: 1.56;
   opacity: 0;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+   padding-left: 24px;
+         
 }
 
 .foto {
- 
-  position: relative;
+   position: relative;
   overflow: hidden;
-  
-  &:hover .texno {
+    &:hover .texno {
   opacity: 1;
 }
 
@@ -199,7 +147,6 @@
   opacity: 1;
   transform: translateY(0);
 }
-
 }
 
 .img {
@@ -207,7 +154,6 @@
   max-width: 100%;
   height: auto;
 }
-
 
 .overlay {
   position: absolute;
@@ -233,38 +179,20 @@
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   margin-bottom: 30px;
-
   justify-content: center;
   background-position: center;
   margin-right: auto;
   margin-left: auto;
-
- 
-
-          @media screen and (min-width: $mobile) {
-               
-              }
-
          @media screen and (min-width: $tablet) {
-                        
-          
             width: calc((100% - 2 * 30px) / 2);
             margin: 15px;
             padding-bottom: 0;
-
-
-         
-                       }
-
+                               }
         @media screen and (min-width: $desktop) {
-                         
                           width: calc((100% - 3 * 30px) / 3);
                           margin: 15px;
                           padding-bottom: 0;
                           }
-
-
-
 
   &:hover {
   border: 1px solid #eeeeee;

@@ -1,71 +1,48 @@
-
- 
  .page-header{
     position: relative;
     margin-right: auto;
     margin-left: auto;
-
   height: 60px;
-
-
        @media screen and (max-width: 787px) {
-              
-                  text-align: center;
+                                text-align: center;
                         }
-
       @media screen and (min-width: $mobile) {
                 width: 480px;
                         }
       @media screen and (min-width: $tablet) {
                      width: 768px;
                     }
-
       @media screen and (min-width: $desktop) {
                           width: 1200px;
-                     
-                        }
-
-
+                          height: 80px;
+                                             }
 }
-
  
 .pege-logo{
- 
-  margin-left: auto;  
+   margin-left: auto;  
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 6px;
   padding-bottom: 16px;
-      height: 60px;    
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-
+   height: 60px;    
+ display: flex;
+   justify-content: space-between;
+ align-items: center;
             @media screen and (min-width: $mobile) {
                 height: 60px;
                 width: 480px;
-              
-              }
-
+                            }
             @media screen and (min-width: $tablet) {
                 height: 80px;
                 width: 768px;
-             
-                 
-            }
-
+                                     }
             @media screen and (min-width: 1200px) {
                 width: 1200px;
                height: 80px;
-               
-            }
-
-            
-
-
+                        }
+           
     .logo.current {
-
       color: $title-text-color;
       font-family: Raleway, sans-serif;
       letter-spacing: 0.03em;
@@ -74,31 +51,22 @@
       line-height: 28px;
       letter-spacing: 0.03em;
       text-decoration: none;
-
-
           @media screen and (min-width: $tablet) {
-                      
-       
-               font-size: 26px;
+                                           font-size: 26px;
                line-height: 1.19;
-                 
-          }
+                           }
      
-
   .logoacc {
     color: $accent-color;
     font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
     font-weight: bold;
-
     font-size: 24px;
     line-height: 1.16;
     text-decoration: none;
     padding: 0;
-
               @media screen and (min-width: $tablet) {
-            
-                font-size: 26px;
+                            font-size: 26px;
                 line-height: 1.19;
               }
   }
@@ -106,46 +74,28 @@
 }
 
 .menu-button {
- 
-      outline: none;
+       outline: none;
     display: inline-flex;
     margin: 0;
     padding: 0;
     border: none;
     background-color: transparent;
-
-
-   
-
-        &:focus :hover {
+          &:focus :hover {
        fill: #2196f3;}
       }
-
-
       .icon{
-
         display: flex;
-       
-        padding: 9px;
-
-
-
+               padding: 9px;
     .icon-cross{
-      
-      display: none;
+            display: none;
     }  
- 
-    }
+     }
    
-
 .menu-button {
- 
-  @media screen and (min-width: $tablet) {
+   @media screen and (min-width: $tablet) {
                         display: none;
                     }
-    
-}
-
+    }
 .menu-button.is-open .icon-cross{
   display: block;
 }
@@ -161,17 +111,13 @@
   background: #FFFFFF;
    padding-top: 60px;
   padding-bottom: 50px;
+      z-index: 3;
  
   }
 
-
       .menu-container{
-
         background: #FFFFFF;
-        z-index: 2;
-      
-
-        @media screen and (max-width: 767px){
+                    @media screen and (max-width: 767px){
                 display: block;
                 height: 35px;
                 // text-align: center;
@@ -179,23 +125,15 @@
                    0px 1px 3px rgba(0, 0, 0, 0.16);
 
           }
-
         @media screen and (min-width: $mobile) {
                 width: 480px;
                         }
-
-
         @media screen and (min-width: 768px) {   
                 display: flex;
-               
                 padding: 0;
                 margin: 0;
         }
-
           }
-
-
-
 
   .menu-container{
      @media screen and (max-width: 767px) {
@@ -208,17 +146,11 @@
                &.is-open{
               display: block;
                }
-
                        }
-
-      
-         @media screen and (min-width: $tablet) {
+              @media screen and (min-width: $tablet) {
                             width: 768px;
                             display: flex;
                             justify-content: space-between;
                             flex-grow: 1;
-
                        }
-
-
   }

@@ -1,5 +1,3 @@
-
-
 .centrauto{
    padding-top: 60px;
       padding-left: 15px;
@@ -7,30 +5,18 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 30px;
-
-
-
      @media screen and (min-width: $mobile) {
                   width: 480px;
-              
-              }
-
+                            }
             @media screen and (min-width: $tablet) {
-              
-                width: 768px;
-              
-            }
-
+                              width: 768px;
+                          }
             @media screen and (min-width: $desktop) {
-              
-                width: 1200px;
-              
-            }
-
+                              width: 1200px;
+                          }
 }
 
 .section.list {
-
   list-style: none;
     margin-top: 0;
     margin-bottom: 0;
@@ -38,71 +24,49 @@
     margin-right: auto;
   margin-right: auto;
   margin-left: auto;
-
-
-        
-          @media screen and (min-width: $mobile) {
-               
-       
-              }
-
-          @media screen and (min-width: $tablet) {               width: 768px;
+                  @media screen and (min-width: $mobile) {
+                                   }
+          @media screen and (min-width: $tablet) {             
                width: 768px;
             display: flex;
               flex-wrap: wrap; 
               margin: -15px;
-            
-              }
-
+                          }
           @media screen and (min-width: $desktop) {
               margin: -15px;
                 width: 1200px;
-             
-               }
-
+                            }
  }
 
 .zzz {  
-   
-          @media screen and (min-width: $tablet) {
+             @media screen and (min-width: $tablet) {
             width: calc((100% - 2 * 30px) / 2);
             margin: 15px;
             padding-bottom: 0;
-
               }
-
           @media screen and (min-width: $desktop) {
              width: calc((100% - 4 * 30px) / 4);
             margin: 15px;
             padding-bottom: 0;
-             
-              }
+                           }
 }
-            
-      
-
+                
 .zzz.list-item::before {
   display: block;
   content: "";
- 
-  background-repeat: no-repeat;
+   background-repeat: no-repeat;
   background-position: center;
   background-color: $fon-button;
   border-radius: 4px;
   margin-bottom: 30px;
-
     background-size: auto;
-      
-    border: 1px solid transparent;
+   border: 1px solid transparent;
     border-radius: 4px;
     margin-bottom: 30px;
-   
-    justify-content: center;
+  justify-content: center;
     width: 100%;
     height: 120px;
-
 }
-
 
 .zzz.list-item:nth-child(1)::before {
   background-image: url(../images/antenna.svg);
@@ -121,7 +85,6 @@
 }
 
 .paragraf {
-
    font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -129,14 +92,11 @@
   letter-spacing: 0.03em;
   color: $primary-text-color;
       padding-bottom: 30px;
-
 }
 
 .paragraf:not(:last-child) {
     padding-bottom: 30px;
 }
-
-
 
 .section-sub{
   color: $dark-color;
@@ -156,5 +116,4 @@
           @media screen and (min-width: $desktop) {
              text-align: left;
               }
-
 }
