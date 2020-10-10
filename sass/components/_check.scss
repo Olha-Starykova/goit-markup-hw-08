@@ -28,6 +28,7 @@
 }
 
 .label-check {
+  display: flex;
   margin-bottom: 4px;
   font-family: Roboto;
   font-style: normal;
@@ -42,16 +43,15 @@
 }
 
 .display{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+        margin: 0px;
+    text-align: center;
+   
 }
+
 
 .a-check {
   color: $accent-color;
-  border-bottom: 1px solid $accent-color;
-  display: inline-block;
-  line-height: 0.85;
+   line-height: 0.85;
 }
 .check-box {
   position: absolute;
