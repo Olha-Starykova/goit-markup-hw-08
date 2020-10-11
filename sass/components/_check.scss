@@ -34,6 +34,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-left: 16px;
 }
 }
 .a-check {
@@ -48,11 +49,14 @@
    bottom: 0;
     left: 0;
     margin-left: 40px;
-    margin-bottom: 120px;
-  bottom: 15px;
+   margin-bottom: 140px;
+    bottom: 15px;
   transform: translateY(50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     @media screen and (min-width: $mobile) {
+  margin-bottom: 118px;
 }
+  }
 
 .check-btm {
   display: flex;

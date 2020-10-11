@@ -8,7 +8,6 @@ html {
 *::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
-  outline: 2px solid red;
 }
 
 img {
@@ -203,6 +202,7 @@ img {
     height: 35px;
     -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+    z-index: 1;
   }
 }
 
@@ -1108,6 +1108,11 @@ img {
   padding-left: 24px;
 }
 
+.item-portfolio.brak {
+  height: 404px;
+  z-index: -9;
+}
+
 .foto {
   position: relative;
   overflow: hidden;
@@ -1810,6 +1815,7 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-left: 16px;
   }
 }
 
@@ -1826,12 +1832,18 @@ img {
   bottom: 0;
   left: 0;
   margin-left: 40px;
-  margin-bottom: 120px;
+  margin-bottom: 140px;
   bottom: 15px;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 480px) {
+  .check-box {
+    margin-bottom: 118px;
+  }
 }
 
 .check-btm {
