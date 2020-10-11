@@ -2,7 +2,7 @@
 .page-header .info {
     display: block;
     margin-bottom: 16px;
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $tablet) {
         margin-bottom: 0px;
 }
   @media screen and (min-width: $desktop) {
@@ -21,6 +21,7 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
   color: $accent-color;
+  
 }
 &-footer {
   font-family: Roboto;
@@ -34,15 +35,10 @@
 }
 }
 
-.tel.info.link{
+.tel.info.link {
   margin-bottom: 0;
 }
-
-
-
-
 .proba {
-  
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -51,20 +47,16 @@
 
       @media screen and (min-width: $desktop) {
                  display: flex;  
-                      
                           }
- 
-}
+ }
 
 .button-info {
-
   vertical-align: middle;
   align-items: center;
   width: 16px;
   height: 12px;
   fill: currentColor;
   margin-right: 10px;
-
 
   &-tel {
   vertical-align: middle;
@@ -73,10 +65,11 @@
   height: 16px;
   fill: currentColor;
   margin-right: 10px;
+  @media screen and (min-width: $tablet) {
+        margin-bottom: 0px;
 }
 }
-
-
+}
 .tel {
   color: $primary-text-color;
   font-weight: 500;
@@ -84,14 +77,20 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  
-          @media screen and (min-width: $desktop) {
-                margin-left: 30px;
-            }
-
-  &:hover {
+   &:hover {
   color: $accent-color;
-
 }
-}
+   }
 
+.proba .tel{
+    @media screen and (min-width: $tablet) {
+        margin-top: 10px;
+        margin-right: 30px;
+}
+  @media screen and (min-width: $desktop) {
+          margin-right: 0;
+    margin-top: 0;
+       margin-left: 30px;
+}
+  }
+  

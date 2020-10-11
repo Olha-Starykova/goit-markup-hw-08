@@ -3,6 +3,7 @@
     margin-right: auto;
     margin-left: auto;
   height: 60px;
+  
        @media screen and (max-width: 787px) {
                                 text-align: center;
                         }
@@ -11,10 +12,11 @@
                         }
       @media screen and (min-width: $tablet) {
                      width: 768px;
+                      height: 80px;
                     }
       @media screen and (min-width: $desktop) {
                           width: 1200px;
-                          height: 80px;
+                         
                                              }
 }
  
@@ -23,8 +25,6 @@
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 6px;
-  padding-bottom: 16px;
    height: 60px;    
  display: flex;
    justify-content: space-between;
@@ -111,9 +111,7 @@
   background: #FFFFFF;
    padding-top: 60px;
   padding-bottom: 50px;
-      z-index: 3;
- 
-  }
+   }
 
       .menu-container{
         background: #FFFFFF;

@@ -8,6 +8,7 @@ html {
 *::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  outline: 2px solid red;
 }
 
 img {
@@ -59,13 +60,13 @@ img {
 @media screen and (min-width: 768px) {
   .page-header {
     width: 768px;
+    height: 80px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .page-header {
     width: 1200px;
-    height: 80px;
   }
 }
 
@@ -74,8 +75,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 6px;
-  padding-bottom: 16px;
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,7 +191,6 @@ img {
   background: #FFFFFF;
   padding-top: 60px;
   padding-bottom: 50px;
-  z-index: 3;
 }
 
 .menu-container {
@@ -274,21 +272,6 @@ img {
   }
 }
 
-.navigation {
-  display: block;
-}
-
-@media screen and (min-width: 1200px) {
-  .navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
 .link {
   position: relative;
   text-decoration: none;
@@ -306,6 +289,18 @@ img {
   color: #2196f3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .link {
+    padding-bottom: 28px;
+  }
 }
 
 .line::after {
@@ -845,6 +840,12 @@ img {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .button-info-tel {
+    margin-bottom: 0px;
+  }
+}
+
 .tel {
   color: #757575;
   font-weight: 500;
@@ -854,14 +855,23 @@ img {
   text-decoration: none;
 }
 
-@media screen and (min-width: 1200px) {
-  .tel {
-    margin-left: 30px;
+.tel:hover {
+  color: #2196f3;
+}
+
+@media screen and (min-width: 768px) {
+  .proba .tel {
+    margin-top: 10px;
+    margin-right: 30px;
   }
 }
 
-.tel:hover {
-  color: #2196f3;
+@media screen and (min-width: 1200px) {
+  .proba .tel {
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 30px;
+  }
 }
 
 .centrauto {

@@ -11,13 +11,6 @@ margin-bottom: 60px;
                           }
  }
 
-.navigation{
- display: block;
-       @media screen and (min-width: $desktop) {
-                           display: flex;
-                          align-items: center; 
-                          }
- }
 
 .link {
   position: relative;
@@ -32,10 +25,15 @@ margin-bottom: 60px;
   &:hover,
   &:focus {
     color: $accent-color;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+     @media screen and (min-width: $tablet) {
+        padding-bottom: 32px;
 }
-
+@media screen and (min-width: $desktop) {
+         padding-bottom: 28px;                
+                          }
+   
+}
 .line::after {
   content: "";
   position: absolute;
