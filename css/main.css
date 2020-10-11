@@ -2059,9 +2059,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.form-field:not(:last-child) {
   margin-bottom: 20px;
 }
 
@@ -2116,6 +2113,7 @@ img {
   padding: 12px 16px;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 30px;
 }
 
 .texterea::-webkit-input-placeholder {
